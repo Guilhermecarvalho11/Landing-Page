@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="menu-spacing" id="top"></div>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close-menu" role="button">
+    <label class="open-menu" for="close-menu">
+
+    </label>
+    <aside class="menu bg-color">
+        <div class="main-content menu-content">
+            <h1> 
+                <a href="#home" onclick="document.getElementById('close-menu').checked=false;">
+                    <img class="logo" src="assets/img/logo-dmw.png">
+                </a>
+            </h1>
+
+            <nav>
+                <ul onclick="document.getElementById('close-menu').checked=false;">
+                    <li><a href="#intro">Para quem é?</a></li>
+                    <li><a href="#grid-one">Trilhas</a></li>
+                    <li><a href="#gallery">Tecnologias</a></li>
+                    <li><a href="#grid-two">Como Funciona?</a></li>
+                    <li><a href="#disclaimer">Disclaimer</a></li>
+                    <li><a href="#contact">Inscreva-se</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <section id="home" class="section main-bg">
+        <div class="main-content intro-content">
+            <div class="intro-content-text;">
+                <h2 class="intro-content-text">
+                    Se prepare para programar!</h2>
+                <p>Domine as tecnologias usadas por grandes empresas como Facebook, TicToc,
+                    Uber e muitas outras, tudo isso em 5 dias! Top, né?</p>
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="section bg-color">
+        <div class="main-content top3-content">
+            <h2>Para quem é essa imersão?</h2>
+            <p>O Digital Maker Week é para quem quer acelerar os conhecimentos em programação,
+                utilizando tecnologias alinhadas ao mercado e desenvolvendo projetos do mundo real.
+                É tanto para quem está na área e quer se aprimorar, quanto para quem está começando agora
+                na carreira e quer saber mais sobre esse mercado.</p>
+            <p>Importante: Algumas trilhas exigem conhecimento prévio para acompanhar as aulas.
+                Caso queira aprimorar seus conhecimento básicos, acesse nosso portal com cursos gratuitos.</p>
+        </div>
+    </section>
+    <section id="grid-one" class="section main-bg">
+        <div class="main-content">
+            <h2 class="grid-main-heading">Trilhas</h2>
+            <p class="grid-descrption">Para ir direto ao objetivo</p>
+            <div class="grid">
+                <article>
+                    <h3>Iniciante</h3>
+                    <p>Se você está começando em programação, comece criando um layout usando html e
+                        css.</p>
+                </article>
+                <article>
+                    <h3>Front-end</h3>
+                    <p>Se você já manja um pouco da Web e o Fronten-end é sua praia,
+                        vêm com a gente dominar a ferramenta mais badalada,
+                        o NextJS!</p>
+                </article>
+                <article>
+                    <h3>Mobile</h3>
+                    <p>Agora, se você esta afim de mergulhar no mundo Mobile
+                        e aprender React Native na prática, escolha essa!.</p>
+                </article>
+                <article>
+                    <h3>Inglês pars Dev's</h3>
+                    <p>Nessa trilha você irá junto com a nossa instrutora Gabriela Balallai
+                        aprender tudo sobre Inglês no mundo DEV.</p>
+                </article>
+                <article>
+                    <h3>Back-end</h3>
+                    <p>Se você quer mergulhar em um projeto diferente e aprender IOT com o NODEJS,
+                        essa é a trilha certa para você, vamos construir um projeto para controlar um
+                        DRONE com Node JS..</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="section bg-color">
+        <div class="main-content">
+            <h2 class="grid-main=heading">Tecnologia</h2>
+            <p class="grid-description">Domine as tecnologias mais usadas no mercado:</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="assets/img/html.svg">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/css3.svg">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/javascript.svg">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/nextjs.svg">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/node.svg">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/react.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="grid-two" class="section main-bg">
+        <div class="main-content">
+            <h2 class="grid-main-heading">Como funciona?</h2>
+            <p class="grid-description">3 palavras explicam</p>
+            <div class="grid">
+                <article>
+                    <h3>Prática</h3>
+                    <p>O objetivo do evento é contribuir com a sua bagagem e por isso, em cada trilha trabalhamos com
+                        projetos
+                        de marcado para dar a competencia prática que você precisa..</p>
+                </article>
+                <article>
+                    <h3>Disciplina</h3>
+                    <p>5 videos em 5 dias para cada uma das trilhas, você precisa ficar atento e colocar a mão no
+                        código,
+                        nesse evento não há espaço para distrações e por isso ao final da semana
+                        o conteúdo não estará mais disponivel.</p>
+                </article>
+                <article>
+                    <h3>Competição</h3>
+                    <p>Nosso modelo é baseado em competições que valem prêmios, como bolsas de estudos
+                        na graduação e muito mais, não vai ficar de fora, né?.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="disclaimer" class="section bg-color">
+        <div class="main-content top3-contente">
+            <h2>Modo transparência</h2>
+            <p>Ao final do Digital Maker Weeke abriremos as matrículas para a gradução em
+                Programação</p>
+            <p>Importante: O conteudo do Digital Maker Weeke não é uma amostra e nem parte desses
+                treinamentos, ele é completo e produzido exclusivamente para essa edição do evento.
+            </p>
+        </div>
+
+    </section>
+    <section id="contact" class="section bg-color">
+        <div class="main-content intro-content">
+            <div class="intro-content-text">
+                <h2>Inscreva-se gratuitamente</h2>
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <div class="form-group">
+                        <label for="first-name">Primeiro nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="primeiro nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="e-mail">E-mail</label>
+                        <input type="text" name="e-mail" id="e-mail" placeholder="e-mail">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer bg-color">
+        <p>Feito com muito <span>💜</span> por Overstack</p>
+    </footer>
+
+    <a class="back-to-top" href="#top">
+        ☝
+    </a>
+</body>
+
+</html>
